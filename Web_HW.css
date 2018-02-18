@@ -1,0 +1,71 @@
+.navbar-brand{
+  font-family: 'lato', sans-serif;
+  font-size: 40px;
+  color: #003399
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #003399
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+}
+
+    /* nav tag #00a68c  */
+  .navbar {
+  background-color: white;
+  padding: 10px;
+  font-family: 'lato', sans-serif;
+  font-size: 20px;
+}
+
+ /* background tag  */
+    body {
+      background: white ;
+      font-family: 'lato', sans-serif;
+    }
+
+  /* h1 heading tag */
+  h1 {
+    /* This will color the heading font white. */
+    color: #003399;
+    /* Align the text to the center of its enclosing element (e.g. div). */
+    text-align: left;
+    font-family: 'lato', sans-serif;
+  }
+
+  /* h2 heading tags */
+  h2 {
+    font-size: 20px;
+    text-align: center;
+    /* This will color the heading font white. */
+    color:  red;
+    font-family: 'lato', sans-serif;
+  }
+
+  @media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+    body {
+        background-color: white;
+    }
+
+      /* h1 heading tag */
+  h1 {
+    /* This will color the heading font white. */
+    color: black;
+    /* Align the text to the center of its enclosing element (e.g. div). */
+    text-align: left;
+    font-family: 'lato', sans-serif;
+  }
+  h2 {
+    /* This will color the heading font white. */
+    color: black;
+    /* Align the text to the center of its enclosing element (e.g. div). */
+    text-align: center;
+    font-family: 'lato', sans-serif;
+  }
+
+}

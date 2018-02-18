@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+            <meta charset="UTF-8">
+            <title>Web_HW_Comparisons</title>
+            
+            <!-- Bring in our bootstrap stylesheet -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+            <link rel="stylesheet" href="Web_HW.css">
+    </head>
+
+<!-- Navigation Bar-->
+<header>
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+                <a target="_blank" href="Web_HW_Landing.html"> <h1 class="navbar-brand">Latitude</h1></a>
+        </div>
+        <div class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <!-- links -->
+                    <li><a target="_blank" href="#">Max Temperature</a></li>
+                    <li><a target="_blank" href="#">Humidity</a></li>
+                    <li><a target="_blank" href="#">Cloudiness</a></li>
+                    <li><a target="_blank" href="#">Wind Speed</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a target="_blank" href="#">Comparison</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a target="_blank" href="#">Data</a></li>
+                </ul>
+            </li>
+            <li><a target="_blank" href="Web_HW_Comparisons.html">Comparisons</a></li>
+            <li><a target="_blank" href="Web_HW_Data.html">Data</a></li>
+        </div>
+    </div>
+    </nav>
+</header>
+
+<!-- Main Content Area-->
+
+<body>
+
+  <!-- Creates the Overall Grid -->
+  <div class="container">
+
+    <!-- Second Row -->
+    <div class="row">
+
+      <!-- One chucnky column -->
+
+      <div class="col-md-12">
+        
+        <h1>Comparison: Latitude vs. X.</h1>
+        <br>
+        <p>Click any plot for in-depth analysis.</p>
+        <div class="row">
+                <div class="col-md-6">
+                        <h2>vs. Max Temperature</h2>       
+                        <figure>
+                            <a target="_blank" href="images/Temperature (F) vs. Latitude.png">
+                                <img src="images/Temperature (F) vs. Latitude.png" alt="Temperature vs. Latitude">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                            <h2>vs. Cloudiness</h2>    
+                        <figure>
+                            <a target="_blank" href="images/Cloudiness (%) vs. Latitude.png">
+                                <img src="images/Cloudiness (%) vs. Latitude.png" alt="Temperature vs. Latitude">
+                            </a>
+                        </figure>
+                    </div>
+        </div>
+        <div class ="row">
+                <div class="col-md-6">
+                        <h2>vs. Humidity</h2>   
+                        <figure>
+                            <a target="_blank" href="images/Humidity (%) vs. Latitude.png">
+                                <img src="images/Humidity (%) vs. Latitude.png" alt="Temperature vs. Latitude">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                            <h2>vs. Wind Speed</h2>  
+                        <figure>
+                            <a target="_blank" href="images/Wind Speed (mph) vs. Latitude.png">
+                                <img src="images/Wind Speed (mph) vs. Latitude.png" alt="Temperature vs. Latitude">
+                            </a>
+                        </figure>
+                    </div> 
+        </div>
+
+  </div>
+
+</body>
+</html>
